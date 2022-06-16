@@ -1,0 +1,10 @@
+wandb_version: 1
+
+concat_pool:
+  value: true
+model_name:
+  value: vit_base_patch8_224_dino
+num_experiments:
+  value: 1
+resize_method:
+  value: crop

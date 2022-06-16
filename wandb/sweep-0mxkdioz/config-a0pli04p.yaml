@@ -1,0 +1,10 @@
+wandb_version: 1
+
+concat_pool:
+  value: true
+model_name:
+  value: efficientnet_b0
+num_experiments:
+  value: 2
+resize_method:
+  value: crop

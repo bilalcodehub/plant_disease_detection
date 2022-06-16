@@ -1,0 +1,10 @@
+wandb_version: 1
+
+concat_pool:
+  value: true
+model_name:
+  value: efficientnet_lite0
+num_experiments:
+  value: 1
+resize_method:
+  value: squish

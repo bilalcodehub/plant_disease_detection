@@ -1,0 +1,12 @@
+wandb_version: 1
+
+concat_pool:
+  value: true
+learning_rate:
+  value: 0.001
+model_name:
+  value: levit_256
+num_experiments:
+  value: 2
+resize_method:
+  value: crop

@@ -7,7 +7,12 @@ Learner:
     arch: regnetx_004
     concat_pool: false
     loss_func:
-      _name: FlattenedLoss of CrossEntropyLoss()
+      _name:
+        _name: FlattenedLoss of CrossEntropyLoss()
+        axis: -1
+        flatten: true
+        floatify: false
+        is_2d: true
       axis: -1
       flatten: true
       floatify: false
@@ -80,7 +85,18 @@ _wandb:
       - 53
       - 55
       - 63
+      2:
+      - 1
+      - 4
+      - 5
+      - 33
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
       3:
+      - 2
       - 16
       4: 3.9.13
       5: 0.12.18
@@ -121,10 +137,10 @@ epochs:
   value: 1
 frozen:
   desc: null
-  value: true
+  value: false
 frozen idx:
   desc: null
-  value: 1
+  value: 0
 img_size:
   desc: null
   value: 224

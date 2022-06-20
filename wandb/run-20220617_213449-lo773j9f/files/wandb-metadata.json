@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.13.0-51-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-06-17T20:34:50.127613",
+    "startedAt": "2022-06-17T20:34:49.173283",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 2,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/bilal/mlworks/plant_disease_detection/sweep.py",
+    "codePath": "sweep.py",
+    "git": {
+        "remote": "git@github.com:bilalcodehub/plant_disease_detection.git",
+        "commit": "c1cfdd2418d557aebd9f2160022ef81fe7e601c7"
+    },
+    "email": "muhammad.bilal@uwe.ac.uk",
+    "root": "/home/bilal/mlworks/plant_disease_detection",
+    "host": "my-PC",
+    "username": "bilal",
+    "executable": "/home/bilal/mambaforge/bin/python"
+}

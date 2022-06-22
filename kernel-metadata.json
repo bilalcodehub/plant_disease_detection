@@ -1,0 +1,16 @@
+{
+  "id": "evangelistatuwe/01-paddy-getting-started",
+  "title": "F01 Paddy Getting Started",
+  "code_file": "01_paddy-getting-started.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "competitions/paddy-disease-classification"
+  ]
+}
